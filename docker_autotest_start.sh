@@ -1,4 +1,4 @@
-SHABANG_ADD
+#!/bin/bash
 cd /opt/tpautotest/test_TP/
 
 green='\033[0;32m'
