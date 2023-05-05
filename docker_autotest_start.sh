@@ -23,7 +23,6 @@ sudo docker rm $(sudo docker ps -a -q) &>/dev/null
 echo "Containers removed"
 
 sudo docker run -d --name selenoid -p 7779:4444 -v /var/run/docker.sock:/var/run/docker.sock -v /opt/tpautotest/test_TP/selenoid/:/etc/selenoid/:ro aerokube/selenoid:latest-release &>/dev/null
-
 name='selenoid'
 printfunction
 
