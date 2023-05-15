@@ -1,0 +1,263 @@
+"itemid","name"
+45928,Host name of Zabbix agent running
+45929,Zabbix agent ping
+45930,Version of Zabbix agent running
+45902,Garbage collector discovery
+45903,Memory pool discovery
+45910,Protocol handlers discovery
+45911,Global request processors discovery
+45912,Contexts discovery
+45913,Thread pools discovery
+46129,"""http-nio-8080"": Bytes received per second"
+46130,"""http-nio-8080"": Bytes sent per second"
+46131,"""http-nio-8080"": Errors per second"
+46132,"""http-nio-8080"": Requests processing time"
+46133,"""http-nio-8080"": Requests per second"
+46100,localhost/: Sessions active
+46106,localhost/: Sessions allowed maximum
+46112,localhost/: Sessions active maximum so far
+46118,localhost/: Sessions rejected per second
+46124,localhost/: Sessions created per second
+46098,localhost/book: Sessions active
+46104,localhost/book: Sessions allowed maximum
+46110,localhost/book: Sessions active maximum so far
+46116,localhost/book: Sessions rejected per second
+46122,localhost/book: Sessions created per second
+46097,localhost/docs: Sessions active
+46103,localhost/docs: Sessions allowed maximum
+46109,localhost/docs: Sessions active maximum so far
+46115,localhost/docs: Sessions rejected per second
+46121,localhost/docs: Sessions created per second
+46095,localhost/examples: Sessions active
+46101,localhost/examples: Sessions allowed maximum
+46107,localhost/examples: Sessions active maximum so far
+46113,localhost/examples: Sessions rejected per second
+46119,localhost/examples: Sessions created per second
+46099,localhost/host-manager: Sessions active
+46105,localhost/host-manager: Sessions allowed maximum
+46111,localhost/host-manager: Sessions active maximum so far
+46117,localhost/host-manager: Sessions rejected per second
+46123,localhost/host-manager: Sessions created per second
+46096,localhost/manager: Sessions active
+46102,localhost/manager: Sessions allowed maximum
+46108,localhost/manager: Sessions active maximum so far
+46114,localhost/manager: Sessions rejected per second
+46120,localhost/manager: Sessions created per second
+46125,"""http-nio-8080"": Gzip compression status"
+45909,Tomcat: Version
+46126,"""http-nio-8080"": Threads count"
+46127,"""http-nio-8080"": Threads busy"
+46128,"""http-nio-8080"": Threads limit"
+46091,GarbageCollector: PS MarkSweep number of collections per second
+46093,GarbageCollector: PS MarkSweep accumulated time spent in collection
+46088,Memory pool: PS Old Gen committed
+46089,Memory pool: PS Old Gen maximum size
+46090,Memory pool: PS Old Gen used
+46092,GarbageCollector: PS Scavenge number of collections per second
+46094,GarbageCollector: PS Scavenge accumulated time spent in collection
+45904,GarbageCollector: {#JMXNAME} number of collections per second
+45905,GarbageCollector: {#JMXNAME} accumulated time spent in collection
+45906,Memory pool: {#JMXNAME} committed
+45907,Memory pool: {#JMXNAME} maximum size
+45908,Memory pool: {#JMXNAME} used
+45880,ClassLoading: Loaded class count
+45881,ClassLoading: Total loaded class count
+45882,ClassLoading: Unloaded class count
+45883,Compilation: Name of the current JIT compiler
+45884,Compilation: Accumulated time spent
+45885,Memory: Heap memory committed
+45886,Memory: Heap memory maximum size
+45887,Memory: Heap memory used
+45888,Memory: Non-Heap memory committed
+45889,Memory: Non-Heap memory maximum size
+45890,Memory: Non-Heap memory used
+45891,Memory: Object pending finalization count
+45892,OperatingSystem: File descriptors maximum count
+45893,OperatingSystem: File descriptors opened
+45894,OperatingSystem: Process CPU Load
+45895,Runtime: JVM uptime
+45896,Runtime: JVM name
+45897,Runtime: JVM version
+45898,Threading: Daemon thread count
+45899,Threading: Peak thread count
+45900,Threading: Thread count
+45901,Threading: Total started thread count
+45914,{#JMXHOST}{#JMXCONTEXT}: Sessions active
+45915,{#JMXNAME}: Bytes received per second
+45916,{#JMXNAME}: Bytes sent per second
+45917,{#JMXVALUE}: Gzip compression status
+45918,{#JMXNAME}: Threads count
+45919,{#JMXNAME}: Threads busy
+45920,{#JMXNAME}: Errors per second
+45921,{#JMXHOST}{#JMXCONTEXT}: Sessions allowed maximum
+45922,{#JMXHOST}{#JMXCONTEXT}: Sessions active maximum so far
+45923,{#JMXNAME}: Threads limit
+45924,{#JMXNAME}: Requests processing time
+45925,{#JMXHOST}{#JMXCONTEXT}: Sessions rejected per second
+45926,{#JMXNAME}: Requests per second
+45927,{#JMXHOST}{#JMXCONTEXT}: Sessions created per second
+45931,Maximum number of open file descriptors
+45932,Maximum number of processes
+46032,MySQL: Aborted clients per second
+46033,MySQL: Aborted connections per second
+46034,MySQL: Binlog cache disk use
+46077,MySQL: Binlog commits
+46078,MySQL: Binlog group commits
+46026,MySQL: Buffer pool efficiency
+46027,MySQL: Buffer pool utilization
+46035,MySQL: Bytes received
+46036,MySQL: Bytes sent
+46037,MySQL: Command Delete per second
+46038,MySQL: Command Insert per second
+46039,MySQL: Command Select per second
+46040,MySQL: Command Update per second
+46041,MySQL: Connection errors accept per second
+46042,MySQL: Connection errors internal per second
+46043,MySQL: Connection errors max connections per second
+46044,MySQL: Connection errors peer address per second
+46045,MySQL: Connection errors select per second
+46046,MySQL: Connection errors tcpwrap per second
+46047,MySQL: Connections per second
+46048,MySQL: Created tmp tables on disk per second
+46049,MySQL: Created tmp files on disk per second
+46050,MySQL: Created tmp tables on memory per second
+46074,Database discovery
+46134,MySQL: Size of database mysql
+46135,MySQL: Size of database onlinebookstore
+46136,MySQL: Size of database performance_schema
+46137,MySQL: Size of database sys
+46079,MySQL: Size of database {#DBNAME}
+46075,MariaDB discovery
+46028,MySQL: Get status variables
+46051,MySQL: InnoDB buffer pool pages free
+46052,MySQL: InnoDB buffer pool pages total
+46053,MySQL: InnoDB buffer pool read requests
+46054,MySQL: InnoDB buffer pool read requests per second
+46055,MySQL: InnoDB buffer pool reads
+46056,MySQL: InnoDB buffer pool reads per second
+46057,MySQL: Innodb buffer pool wait free
+46029,MySQL: Calculated value of innodb_log_file_size
+46058,MySQL: Innodb number open files
+46059,MySQL: Innodb log written
+46060,MySQL: InnoDB row lock time
+46061,MySQL: InnoDB row lock time max
+46062,MySQL: InnoDB row lock waits
+46080,MySQL: Master GTID wait count
+46081,MySQL: Master GTID wait time
+46082,MySQL: Master GTID wait timeouts
+46063,MySQL: Max used connections
+46064,MySQL: Open table definitions
+46065,MySQL: Open tables
+46030,MySQL: Status
+46066,MySQL: Queries per second
+46067,MySQL: Questions per second
+46076,Replication discovery
+46084,MySQL: Replication Seconds Behind Master {#MASTERHOST}
+46085,MySQL: Replication Slave IO Running {#MASTERHOST}
+46086,MySQL: Replication Slave SQL Running {#MASTERHOST}
+46087,MySQL: Replication Slave SQL Running State {#MASTER_HOST}
+46083,MySQL: Replication Slave status {#MASTERHOST}
+46068,MySQL: Slow queries per second
+46069,MySQL: Threads cached
+46070,MySQL: Threads connected
+46071,MySQL: Threads created per second
+46072,MySQL: Threads running
+46073,MySQL: Uptime
+46031,MySQL: Version
+45970,Network interface discovery
+45995,Interface enp0s3: Inbound packets discarded
+45997,Interface enp0s3: Inbound packets with errors
+45999,Interface enp0s3: Bits received
+45996,Interface enp0s8: Inbound packets discarded
+45998,Interface enp0s8: Inbound packets with errors
+46000,Interface enp0s8: Bits received
+45973,Interface {#IFNAME}: Inbound packets discarded
+45974,Interface {#IFNAME}: Inbound packets with errors
+45975,Interface {#IFNAME}: Bits received
+46001,Interface enp0s3: Outbound packets discarded
+46003,Interface enp0s3: Outbound packets with errors
+46005,Interface enp0s3: Bits sent
+46002,Interface enp0s8: Outbound packets discarded
+46004,Interface enp0s8: Outbound packets with errors
+46006,Interface enp0s8: Bits sent
+45976,Interface {#IFNAME}: Outbound packets discarded
+45977,Interface {#IFNAME}: Outbound packets with errors
+45978,Interface {#IFNAME}: Bits sent
+45933,Number of processes
+45934,Number of running processes
+45935,System boot time
+45936,Interrupts per second
+45937,Load average (15m avg)
+45938,Load average (1m avg)
+45939,Load average (5m avg)
+45940,Number of CPUs
+45941,Context switches per second
+45968,CPU utilization
+45942,CPU guest time
+45943,CPU guest nice time
+45944,CPU idle time
+45945,CPU interrupt time
+45946,CPU iowait time
+45947,CPU nice time
+45948,CPU softirq time
+45949,CPU steal time
+45950,CPU system time
+45951,CPU user time
+45952,System name
+45953,System local time
+45954,Operating system architecture
+45955,Operating system
+45956,Software installed
+45957,Free swap space
+45958,Free swap space in %
+45959,Total swap space
+45960,System description
+45961,System uptime
+45962,Number of logged in users
+45971,Block devices discovery
+46021,sda: Disk average queue size (avgqu-sz)
+45989,{#DEVNAME}: Disk average queue size (avgqu-sz)
+46013,sda: Disk read request avg waiting time (r_await)
+45979,{#DEVNAME}: Disk read request avg waiting time (r_await)
+46020,sda: Disk read rate
+45990,{#DEVNAME}: Disk read rate
+46019,sda: Disk read time (rate)
+45991,{#DEVNAME}: Disk read time (rate)
+46018,sda: Disk utilization
+45992,{#DEVNAME}: Disk utilization
+46014,sda: Disk write request avg waiting time (w_await)
+45980,{#DEVNAME}: Disk write request avg waiting time (w_await)
+46017,sda: Disk write rate
+45993,{#DEVNAME}: Disk write rate
+46016,sda: Disk write time (rate)
+45994,{#DEVNAME}: Disk write time (rate)
+45963,Checksum of /etc/passwd
+46007,Interface enp0s3: Operational status
+46009,Interface enp0s3: Speed
+46011,Interface enp0s3: Interface type
+46008,Interface enp0s8: Operational status
+46010,Interface enp0s8: Speed
+46012,Interface enp0s8: Interface type
+45981,Interface {#IFNAME}: Operational status
+45982,Interface {#IFNAME}: Speed
+45983,Interface {#IFNAME}: Interface type
+46015,sda: Get stats
+45984,{#DEVNAME}: Get stats
+45972,Mounted filesystem discovery
+46022,/: Free inodes in %
+46138,/var/snap/firefox/common/host-hunspell: Free inodes in %
+45985,{#FSNAME}: Free inodes in %
+46023,/: Space utilization
+46024,/: Total space
+46025,/: Used space
+46139,/var/snap/firefox/common/host-hunspell: Space utilization
+46140,/var/snap/firefox/common/host-hunspell: Total space
+46141,/var/snap/firefox/common/host-hunspell: Used space
+45986,{#FSNAME}: Space utilization
+45987,{#FSNAME}: Total space
+45988,{#FSNAME}: Used space
+45964,Available memory
+45965,Available memory in %
+45966,Total memory
+45969,Memory utilization
+45967,Zabbix agent availability
