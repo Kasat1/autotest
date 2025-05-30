@@ -1,1 +1,0 @@
-java.lang.ClassCastException: class servlets.AdminLoginServlet cannot be cast to class jakarta.servlet.Servlet (servlets.AdminLoginServlet is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @fb96fba; jakarta.servlet.Servlet is in unnamed module of loader java.net.URLClassLoader @b9afc07)
